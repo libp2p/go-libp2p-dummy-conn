@@ -13,6 +13,12 @@
       "hash": "QmdaFHcDk53RWnq4R6wH2Uy5YuBmvbSWLK8gFhQwqU3jZH",
       "name": "bufpipe",
       "version": "0.1.0"
+    },
+    {
+      "author": "whyrusleeping",
+      "hash": "QmctX4TY6jXtpfeDiwMGoB4qVTBGDnz7T7r22CwQSzTgwt",
+      "name": "go-libp2p-interface-conn",
+      "version": "0.4.0"
     }
   ],
   "gxVersion": "0.9.1",
