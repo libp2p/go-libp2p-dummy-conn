@@ -1,0 +1,15 @@
+{
+  "author": "Kubuxu",
+  "bugs": {
+    "URL": "https://github.com/Kubuxu/go-libp2p-dummy-conn/issues"
+  },
+  "gx": {
+    "dvcsimport": "github.com/Kubuxu/go-libp2p-dummy-conn"
+  },
+  "gxVersion": "0.9.1",
+  "language": "go",
+  "license": "MIT",
+  "name": "go-libp2p-dummy-conn",
+  "version": "0.0.0"
+}
+
