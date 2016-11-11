@@ -8,6 +8,7 @@ import (
 	ic "github.com/libp2p/go-libp2p-crypto"
 	iconn "github.com/libp2p/go-libp2p-interface-conn"
 	peer "github.com/libp2p/go-libp2p-peer"
+	tpt "github.com/libp2p/go-libp2p-transport"
 	ma "github.com/multiformats/go-multiaddr"
 	"github.com/whyrusleeping/bufpipe"
 )
@@ -42,6 +43,10 @@ func (d *dummyconn) Write(p []byte) (n int, err error) {
 }
 
 func (*dummyconn) LocalPeer() peer.ID {
+	panic("not implemented")
+}
+
+func (*dummyconn) Transport() tpt.Transport {
 	panic("not implemented")
 }
 
