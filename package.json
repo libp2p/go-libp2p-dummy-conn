@@ -26,6 +26,6 @@
   "license": "MIT",
   "name": "go-libp2p-dummy-conn",
   "releaseCmd": "git commit -a -m \"gx publish $VERSION\"",
-  "version": "0.2.5"
+  "version": "0.2.6"
 }
 
