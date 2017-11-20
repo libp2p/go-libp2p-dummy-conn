@@ -1,11 +1,11 @@
 {
   "author": "Kubuxu",
   "bugs": {
-    "URL": "https://github.com/Kubuxu/go-libp2p-dummy-conn/issues",
-    "url": "https://github.com/Kubuxu/go-libp2p-dummy-conn/issues"
+    "URL": "https://github.com/libp2p/go-libp2p-dummy-conn/issues",
+    "url": "https://github.com/libp2p/go-libp2p-dummy-conn/issues"
   },
   "gx": {
-    "dvcsimport": "github.com/Kubuxu/go-libp2p-dummy-conn"
+    "dvcsimport": "github.com/libp2p/go-libp2p-dummy-conn"
   },
   "gxDependencies": [
     {
