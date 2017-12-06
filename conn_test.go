@@ -20,13 +20,13 @@ func TestDuplexWriteDoesntHang(t *testing.T) {
 
 	buf.ReadFrom(conn1)
 	if buf.String() != "hello1" {
-		t.Fatal("expected 'hello1' got '%s'", buf.String())
+		t.Fatalf("expected 'hello1' got '%s'", buf.String())
 	}
 
 	buf.Reset()
 	buf.ReadFrom(conn2)
 	if buf.String() != "hello2" {
-		t.Fatal("expected 'hello2' got '%s'", buf.String())
+		t.Fatalf("expected 'hello2' got '%s'", buf.String())
 	}
 
 }
