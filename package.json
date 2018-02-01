@@ -16,9 +16,9 @@
     },
     {
       "author": "whyrusleeping",
-      "hash": "Qmamsg8biD9P9CkvWGPUkWtJZNfyeHcWu2uztXkknd3frd",
+      "hash": "QmToCvh5eJtoDheMggre7b2zeFCJ6tAyB82YVs457cqoUE",
       "name": "go-libp2p-interface-conn",
-      "version": "0.4.11"
+      "version": "0.4.12"
     }
   ],
   "gxVersion": "0.9.1",
@@ -26,6 +26,6 @@
   "license": "MIT",
   "name": "go-libp2p-dummy-conn",
   "releaseCmd": "git commit -a -m \"gx publish $VERSION\"",
-  "version": "0.2.8"
+  "version": "0.2.9"
 }
 
