@@ -1,5 +1,8 @@
-go-libp2p-dummy-conn
+[DEPRECATED] go-libp2p-dummy-conn
 ==================
+
+This package has been deprecated and is no longer used by go-libp2p. It implements the interfaces defined in [libp2p/go-libp2p-interface-conn](https://github.com/libp2p/go-libp2p-interface-conn/) but those have now been deprecated.
+
 
 [![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](https://protocol.ai)
 [![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://libp2p.io/)
